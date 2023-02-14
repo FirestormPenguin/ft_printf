@@ -6,11 +6,11 @@
 #    By: egiubell <egiubell@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/14 15:28:10 by egiubell          #+#    #+#              #
-#    Updated: 2023/02/14 16:04:54 by egiubell         ###   ########.fr        #
+#    Updated: 2023/02/14 16:21:31 by egiubell         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= printf.a
+NAME		= libftprintf.a
 INCLUDE		= include
 LIBFT		= libft
 SRC_DIR		= src/
