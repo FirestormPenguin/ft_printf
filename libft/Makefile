@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: egiubell <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: egiubell <egiubell@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/26 16:12:12 by egiubell          #+#    #+#              #
-#    Updated: 2023/02/02 19:58:00 by egiubell         ###   ########.fr        #
+#    Updated: 2023/02/15 16:18:24 by egiubell         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -98,8 +98,6 @@ clean:
 fclean: clean
 	@rm -f $(NAME)
 	@echo "$(NAME) deleted"
-
-
 
 re: fclean all
 

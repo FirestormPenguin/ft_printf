@@ -6,36 +6,12 @@
 /*   By: egiubell <egiubell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/06 17:42:20 by egiubell          #+#    #+#             */
-/*   Updated: 2023/02/14 17:22:51 by egiubell         ###   ########.fr       */
+/*   Updated: 2023/02/15 16:18:41 by egiubell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 #include "libft.h"
-
-int	ft_putchar(char c)
-{
-	write(1, &c, 1);
-	return (1);
-}
-
-int	ft_putstr(char *s)
-{
-	int	i;
-
-	i = 0;
-	if (s == NULL)
-	{
-		ft_putstr("(null)");
-		return (6);
-	}
-	while (s[i])
-	{
-		write(1, &s[i], 1);
-		i++;
-	}
-	return (i);
-}
 
 int	ft_conversion(char c, va_list args)
 {
