@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: egiubell <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: egiubell <egiubell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/30 16:34:22 by egiubell          #+#    #+#             */
-/*   Updated: 2023/02/01 19:43:42 by egiubell         ###   ########.fr       */
+/*   Updated: 2023/05/04 15:51:32 by egiubell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,21 +32,6 @@ int	count_split(char const *str, char c)
 	}
 	return (total);
 }
-
-/*
-static char	*word_cpy(const char *str, int start, int end)
-{
-	char	*word;
-	int		i;
-
-	i = 0;
-	word = malloc(sizeof(char) * (end - start + 1));
-	while (start < end)
-		word[i++] = str[start++];
-	word[i] = 0;
-	return (word);
-}
-*/
 
 char	**ft_split(char const *s, char c)
 {
